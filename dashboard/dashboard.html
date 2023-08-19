@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+  />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar container">
+        <a href="#" class="logo">Personal Blogging App</a>
+        <input type="checkbox" id="toggler" />
+        <label for="toggler"><i class="ri-menu-line"></i></label>
+        <div class="menu">
+          <ul class="list">
+            <li><a href="#" id="logoutBtn">Logout</a></li>
+            <li class="username">UserName</a></li>
+            <li><a href="">Update Profile</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="readers">
+        <h1 style="margin-right: 80%;">Dashboard</h1>
+      </div>
+
+      <div class="dashboardContainer">
+         <div class="dashboardBox">
+            <div class="dashboardInput">
+            <input id="blogTitle" type="text" placeholder="Blog Title" required  minlength="5" maxlength="50">
+            <input id="blogBody" class="blogBody" type="text" placeholder="Whats In Your Mind" required minlength="100" maxlength="300">
+            <button id="publishBtn">Publish Blog</button>
+        </div>
+         </div>
+      </div>
+
+      <div class="singleBlog">
+        <div class="blogProfile">
+          <img src="../Assets/dummy.jpeg" alt="" />
+          <div class="blogProfileDetail">
+            <h4 id="ss">Blog Name</h4>
+            <p id="ff">UserName - Date</p>
+          </div>
+        </div>
+         <div class="blog">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+          culpa! Et ratione id perferendis, odio ea dolore modi est libero
+          debitis aliquid ipsum exercitationem assumenda, amet quis expedita
+          impedit cupiditate ab accusantium eligendi rerum minima nesciunt.
+          Explicabo deleniti illum aliquid tempora sapiente, impedit obcaecati
+          eligendi fugiat adipisci pariatur. Obcaecati tenetur, nisi quisquam
+          praesentium fuga nihil quae ea totam iste dicta.
+        </div> 
+         <div class="seeAll">
+          <button class="editBtn">Edit</button>
+          <button class="deleteBtn">Delete</button>
+        </div>
+      </div>
+      <div class="singleBlog">
+        <div class="blogProfile">
+          <img src="../Assets/dummy.jpeg" alt="" />
+          <div class="blogProfileDetail">
+            <h4>Blog Name</h4>
+            <p>UserName - Date</p>
+          </div>
+        </div>
+        <div class="blog">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+          culpa! Et ratione id perferendis, odio ea dolore modi est libero
+          debitis aliquid ipsum exercitationem assumenda, amet quis expedita
+          impedit cupiditate ab accusantium eligendi rerum minima nesciunt.
+          Explicabo deleniti illum aliquid tempora sapiente, impedit obcaecati
+          eligendi fugiat adipisci pariatur. Obcaecati tenetur, nisi quisquam
+          praesentium fuga nihil quae ea totam iste dicta.
+        </div>
+        <div class="seeAll">
+          <button class="editBtn">Edit</button>
+          <button class="deleteBtn">Delete</button>
+        </div>
+      </div>
+      <div class="singleBlog">
+        <div class="blogProfile">
+          <img src="../Assets/dummy.jpeg" alt="" />
+          <div class="blogProfileDetail">
+            <h4>Blog Name</h4>
+            <p>UserName - Date</p>
+          </div>
+        </div>
+        <div class="blog">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias,
+          culpa! Et ratione id perferendis, odio ea dolore modi est libero
+          debitis aliquid ipsum exercitationem assumenda, amet quis expedita
+          impedit cupiditate ab accusantium eligendi rerum minima nesciunt.
+          Explicabo deleniti illum aliquid tempora sapiente, impedit obcaecati
+          eligendi fugiat adipisci pariatur. Obcaecati tenetur, nisi quisquam
+          praesentium fuga nihil quae ea totam iste dicta.
+        </div> 
+        <div class="seeAll">
+          <button class="editBtn">Edit</button>
+          <button class="deleteBtn">Delete</button>
+        </div>
+      </div>   
+
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
